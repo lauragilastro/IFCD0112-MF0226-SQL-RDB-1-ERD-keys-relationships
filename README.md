@@ -24,7 +24,7 @@ Objetivos:
 
 ## Desarrollo:
 ### Esquema E-R:
-![Esquema E-R](esquema-ER.png)
+<img src="esquema-ER.png" alt="Esquema E-R" width="500">
 
 ### Cambios respecto a la actividad anterior:
 - Chófers añade los atributos: dirección, teléfono y días por zona (al ser la relación N:1, cada chófer trabaja en una sola zona y por tanto tiene un único valor de días por zona). Se mantiene nº de chófer como clave primaria.
