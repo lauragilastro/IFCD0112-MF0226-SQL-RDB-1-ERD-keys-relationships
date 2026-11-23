@@ -24,7 +24,7 @@ Objetivos:
 
 ## Desarrollo:
 ### Esquema E-R:
-![Esquema E-R](img/esquema-ER.png)
+![Esquema E-R](esquema-ER.png)
 
 ### Cambios respecto a la actividad anterior:
 - Chófers añade los atributos: dirección, teléfono y días por zona (al ser la relación N:1, cada chófer trabaja en una sola zona y por tanto tiene un único valor de días por zona). Se mantiene nº de chófer como clave primaria.
@@ -40,7 +40,7 @@ Objetivos:
 - Chófers -> conduce -> Vehículos (N:1): un chófer tiene asignado un solo vehículo, pero un mismo vehículo puede estar asignado a varios chófers.
 
 ### Tablas:
-[Ver código SQL](sql/ejercicio1.sql)
+[Ver código SQL](ejercicio1.sql)
 
 ## Feedback del profesor:
 Estimado/a LAURA GIL ORTIZ,
